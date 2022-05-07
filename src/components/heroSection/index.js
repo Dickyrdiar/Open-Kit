@@ -11,9 +11,9 @@ const HeroSection = () => {
               <h1 className="tracking-tight font-extrabold text-gray-900 titleHome text-6xl ">
                 <span className="flex w-full m-auto text-indigo-600">Open-Kit</span>
                 <span className="block font-bold xl:inline">
-                  <span className="absolute">Components</span>
+                  <span className="absolute">Contribute</span>
                   <br />
-                  for Tailwind CSS 2.0
+                  for Open Source Program
                 </span>
               </h1>
 

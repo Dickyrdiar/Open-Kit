@@ -3,7 +3,7 @@ import data from './data';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const [isLogged] = useState(true);
+  const [isLogged] = useState(false);
 
   return (
     <>

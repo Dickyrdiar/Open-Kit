@@ -16,6 +16,12 @@ const dataMenu = {
       id: 3,
       label: 'About',
       path: '/about'
+    },
+
+    {
+      id: 4,
+      label: 'Login',
+      path: '/login'
     }
   ],
 
