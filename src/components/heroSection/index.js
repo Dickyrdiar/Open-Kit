@@ -1,7 +1,14 @@
 import React from 'react';
 import HeroAssets from '../../assets/assets_hero.png';
+import { useHistory } from 'react-router-dom';
 
 const HeroSection = () => {
+  const history = useHistory();
+
+  const handlleClickNext = () => {
+    history.push('/login');
+  };
+
   return (
     <div className="bg-white border-gray-300 px-2 h-[800px] mb-[30px]">
       <div className="container mx-auto sm:my-20">
@@ -26,11 +33,11 @@ const HeroSection = () => {
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start w-full">
                 <div className="rounded-md shadow">
-                  <a
+                  <button
                     className="w-full flex items-center justify-center px-8 py-3  text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 px-4 py-2"
-                    href="/started">
+                    onClick={handlleClickNext}>
                     Get started
-                  </a>
+                  </button>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
