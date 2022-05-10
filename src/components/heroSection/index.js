@@ -5,9 +5,8 @@ import { useHistory } from 'react-router-dom';
 const HeroSection = () => {
   const history = useHistory();
 
-  const handleClickLogin = () => {
-    history.push('/Login');
-    console.log('click');
+  const handlleClickNext = () => {
+    history.push('/login');
   };
 
   return (
@@ -34,11 +33,11 @@ const HeroSection = () => {
 
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start w-full">
                 <div className="rounded-md shadow">
-                  <a
+                  <button
                     className="w-full flex items-center justify-center px-8 py-3  text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 px-4 py-2"
-                    onClick={handleClickLogin}>
+                    onClick={handlleClickNext}>
                     Get started
-                  </a>
+                  </button>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a

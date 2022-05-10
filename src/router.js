@@ -11,9 +11,9 @@ const AppIndex = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" component={homePage} />
-          <Route path="/Login" component={Login} />
-          <Route path="/testing" component={Testing} />
+          <Route exact path="/" component={homePage} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/testing" component={Testing} />
         </Switch>
       </Router>
     </>

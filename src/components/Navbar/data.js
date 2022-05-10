@@ -36,11 +36,6 @@ const dataMenu = {
       id: 2,
       label: 'Logout',
       path: '/logout'
-    },
-
-    {
-      id: 3,
-      label: 'image'
     }
   ]
 };
