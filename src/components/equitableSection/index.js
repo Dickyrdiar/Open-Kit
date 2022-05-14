@@ -25,7 +25,7 @@ const equitableSection = () => {
                 </h2>
               </div>
 
-              <div className="grid">
+              <div className="w-full flex items-center justify-center px-8 py-3  text-base font-medium rounded-md bg-white-100 px-4 py-2 grid">
                 <Equitable />
               </div>
             </div>

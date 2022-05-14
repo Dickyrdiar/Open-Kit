@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import homePage from './container/homepage';
@@ -12,8 +13,8 @@ const AppIndex = () => {
         <Navbar />
         <Switch>
           <Route exact path="/" component={homePage} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/testing" component={Testing} />
+          <Route exact path='/login' component={Login} />
+          <Route exact path='/testing' component={Testing} />
         </Switch>
       </Router>
     </>
