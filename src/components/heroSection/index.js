@@ -5,9 +5,9 @@ import { useHistory } from 'react-router-dom';
 const HeroSection = () => {
   const history = useHistory();
 
-  const handlleClickNext = () => {
+  function handleNext() {
     history.push('/login');
-  };
+  }
 
   return (
     <div className="bg-white border-gray-300 px-2 h-[800px] mb-[30px]">
@@ -35,7 +35,7 @@ const HeroSection = () => {
                 <div className="rounded-md shadow">
                   <button
                     className="w-full flex items-center justify-center px-8 py-3  text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 px-4 py-2"
-                    onClick={handlleClickNext}>
+                    onClick={handleNext}>
                     Get started
                   </button>
                 </div>

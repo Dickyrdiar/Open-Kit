@@ -16,7 +16,9 @@ const homePage = () => {
       </div> */}
       <FitureSection />
       <EquitableSection />
-      <Footer />
+      <div className="mb-[100px]">
+        <Footer />
+      </div>
     </div>
   );
 };
